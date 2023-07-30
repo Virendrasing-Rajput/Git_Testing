@@ -1,11 +1,11 @@
 pipeline{
-  agent any
-    stages{
-        stage{
-          step{
-              echo "this is testing for repo connection";
-          }
-        }
-    }
+          agent any
+          stages{
+                 stage('Test'){
+                       step{
+                               echo "this is testing for repo connection";
+                            }
+                      }
+                }
 
-}
+}  
