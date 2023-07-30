@@ -1,9 +1,9 @@
 pipeline{
           agent any
           stages{
-                 stage('Test'){
+                 stage('Code Pull'){
                        steps{
-                               echo "this is testing for repo connection"
+                               echo "Pulling code from develop branch after push the code"
                             }
                       }
                 }
